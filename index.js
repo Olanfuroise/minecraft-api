@@ -1,14 +1,17 @@
 import express from "express";
 import { Rcon } from "rcon-client";
 
+import express from "express";
+import { Rcon } from "rcon-client";
+
 const app = express();
 app.use(express.json());
 
 async function sendCommand(cmd) {
   const rcon = await Rcon.connect({
-    host: 91.171.147.185,
+    host: "91.171.147.185", // ton IP publique
     port: 25575,
-    password: 123456789
+    password: "123456789"
   });
 
   await rcon.send(cmd);
