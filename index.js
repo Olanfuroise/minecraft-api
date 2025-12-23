@@ -1,9 +1,6 @@
 import express from "express";
 import { Rcon } from "rcon-client";
 
-import express from "express";
-import { Rcon } from "rcon-client";
-
 const app = express();
 app.use(express.json());
 
