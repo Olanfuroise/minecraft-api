@@ -1,0 +1,9 @@
+{
+  "name": "minecraft-api",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "express": "latest",
+    "rcon-client": "latest"
+  }
+}
